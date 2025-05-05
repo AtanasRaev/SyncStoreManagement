@@ -39,7 +39,4 @@ public class Product {
 
     @Column(name = "is_selected", nullable = false)
     private boolean isSelected;
-
-    @Column(name = "is_synced", nullable = false)
-    private boolean isSynced;
 }

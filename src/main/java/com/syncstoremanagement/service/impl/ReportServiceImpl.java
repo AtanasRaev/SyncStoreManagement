@@ -1,9 +1,7 @@
 package com.syncstoremanagement.service.impl;
 
-import com.syncstoremanagement.database.dto.PurchaseDTO;
 import com.syncstoremanagement.database.dto.ReportDTO;
 import com.syncstoremanagement.database.model.Product;
-import com.syncstoremanagement.database.model.Purchase;
 import com.syncstoremanagement.database.model.Report;
 import com.syncstoremanagement.database.model.SyncLogReport;
 import com.syncstoremanagement.database.repository.ReportRepository;

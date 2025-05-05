@@ -4,6 +4,8 @@ spring:
   jpa:
     properties:
       hibernate:
+        jdbc:
+          time_zone: Europe/Sofia
         format_sql: 'TRUE'
         dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:

@@ -25,16 +25,6 @@ public class Report {
     @Column(nullable = false)
     private LocalDateTime createdAt;
 
-    @Column(name = "is_synced", nullable = false)
-    private boolean isSynced;
-
-    public Report(Product product, BigDecimal quantity, LocalDateTime createdAt, boolean isSynced) {
-        this.product = product;
-        this.quantity = quantity;
-        this.createdAt = createdAt;
-        this.isSynced = isSynced;
-    }
-
-    public Report() {
-    }
+    @Column(unique = true)
+    private Long appId;
 }
